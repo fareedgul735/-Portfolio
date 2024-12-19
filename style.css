@@ -1,0 +1,140 @@
+body {
+  overflow-x: hidden !important;
+}
+.regular {
+  font-weight: 400 !important;
+  font-family: sans-serif;
+}
+.medium {
+  font-weight: 500 !important;
+  font-family: sans-serif;
+}
+.semiBold {
+  font-weight: 600 !important;
+  font-family: sans-serif;
+}
+.bold {
+  font-weight: bolder !important;
+  font-family: sans-serif;
+}
+.parent {
+  position: relative;
+}
+.title {
+  font-size: 32px;
+  font-weight: 900;
+  text-align: start;
+  padding-top: 35px;
+  color: #000000;
+}
+.title::after {
+  width: 60px !important;
+  height: 5px !important ;
+  background-color: #6c63ff;
+  position: absolute;
+  content: "";
+  bottom: 0px;
+  left: 10px;
+}
+/* Navbar */
+.nav-bar {
+  background-color: #6c63ff;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50px;
+  position: fixed;
+  top: 0;
+  z-index: 11111;
+  min-width: 100% !important;
+}
+span {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.auto-type2 {
+  color: #6c63ff;
+}
+/* Navbar */
+
+/* side-bar */
+.side-bar {
+  background-color: #6c63ff;
+  height: auto;
+}
+.side-menu {
+  list-style-type: none;
+}
+#header {
+  height: 100%;
+  position: fixed;
+  top: 50px;
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
+  width: 16.666%;
+}
+/* side-bar */
+
+/* bar-button */
+.bar-button {
+  position: fixed;
+  top: 0px;
+  left: 80%;
+  z-index: 134;
+}
+/* bar-button */
+
+/* offcanvas */
+.header {
+  height: 100%;
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
+  z-index: 9999999999;
+}
+/* offcanvas */
+/* hero-image */
+.cover-image {
+  aspect-ratio: 3 / 2; /* Aspect ratio of 3:2 */
+  overflow-x: hidden;
+  width: 400px;
+  height: 400px;
+}
+/* hero-image */
+
+/* portfolio */
+.brand {
+  transition: all 0.3s ease-in-out;
+}
+.brand:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+}
+/* portfolio */
+
+/* services */
+.service {
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+}
+.service:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+  background-color: #6c63ff;
+  color: #fff;
+}
+/* services */
+
+/* Contact */
+.icon {
+  color: #000;
+}
+.icon:hover {
+  color: rgb(72, 185, 255);
+  cursor: pointer;
+}
+.contacting {
+  background-color: #fff;
+}
+/* Contact */
